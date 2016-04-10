@@ -1,0 +1,39 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>fr.dpassyann.franfinance</groupId>
+  <artifactId>FranFinance-Parent-App</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <name>${project.artifactId}</name>
+  <description>Pom parent de tous les projets</description>
+  <url>http://maven.apache.org</url>
+  <inceptionYear>2016</inceptionYear>
+  
+  <developers>
+  	<developer>
+  		<id>aden024</id>
+  		<name>Yann Deungoué</name>
+  		<email>Yann.Deungoue@fr.frf.socgen.com</email>
+  		<roles>
+  			<role>developer</role>
+  			<role>junior architect</role>
+  		</roles>
+  	</developer>
+  </developers>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>
