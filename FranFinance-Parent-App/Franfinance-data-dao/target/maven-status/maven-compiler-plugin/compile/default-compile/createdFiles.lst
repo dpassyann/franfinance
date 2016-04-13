@@ -1,0 +1,5 @@
+fr/frf/franfinance/rsi/red/ref/data/FranFinancePersistenceApplicationConfig.class
+fr/frf/franfinance/rsi/red/ref/data/repository/impl/PersonRepository.class
+fr/frf/franfinance/rsi/red/ref/data/entity/query/QPerson.class
+fr/frf/franfinance/rsi/red/ref/data/entity/Person.class
+fr/frf/franfinance/rsi/red/ref/data/repository/IPersonRepository.class
